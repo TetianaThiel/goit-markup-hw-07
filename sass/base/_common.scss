@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--primary-white-color);
+  
+  }
+
+  .list {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .navigation .link.current,
+  .navigation .link:active,
+  .navigation .link:hover,
+  .navigation .link:focus {
+    color: var(--accent-text-color);
+  }
+  
+  .list-contacts__link .contact__item-icon.current,
+  .list-contacts__link .contact__item-icon:active,
+  .list-contacts__link .contact__item-icon:hover,
+  .list-contacts__link .contact__item-icon:focus {
+    color: var(--accent-text-color);
+  }
