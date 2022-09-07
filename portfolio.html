@@ -14,38 +14,39 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
     <!--header-->
-    <header class="header">
+    <header class="page-header">
         <div class="container header-container">
-            <a href="./index.html" lang="en"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
+            <a href="./index.html" lang="en"><span class="logo page-header__logo">Web</span><span
+                    class="logo__studio">Studio</span></a>
             <nav class="navigation">
                 <ul class="navigation__list list">
                     <li class="navigation__item">
-                        <a href="./index.html" class="link">Студія</a>
+                        <a href="./index.html" class="current link">Студія</a>
                     </li>
-                    <li class="navigation__item"">
-                            <a href=" ./portfolio.html" class="current link">Портфоліо</a>
+                    <li class="navigation__item">
+                            <a href=" ./portfolio.html" class="link">Портфоліо</a>
                     </li>
-                    <li class="navigation__item"">
+                    <li class="navigation__item">
                             <a href="" class=" link">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <ul class="contacts-list list">
-                <li class="navigation__item"">
+                <li class="navigation__item">
                         <a href=" mailto:info@devstudio.com" class="list-contacts__link">
                     <svg class="contact__item-icon" width="16px" height="12px">
                         <use href="./images/icons.svg#icon-envelope"></use>
                     </svg>
                     info@devstudio.com</a>
                 </li>
-                <li class="navigation__item"">
-                        <a href=" tel:+380961111111" class="list-contacts__link">
+                <li class="navigation__item">
+                        <a href="tel:+380961111111" class="list-contacts__link">
                     <svg class="contact__item-icon" width="10px" height="16px">
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>+380961111111</a>
@@ -53,10 +54,9 @@
             </ul>
         </div>
     </header>
-    <main>
-        <section class="portfolio section">
-            <h1 hidden>Gallery</h1>
-            <div class="container">
+        <main>
+            <section class="portfolio section">
+                <h1 hidden>Gallery</h1>
                 <ul class="btn__list">
                     <li class="btn__item list">
                         <button type="button" class="button__portfolio ">Усі</button>
@@ -74,7 +74,6 @@
                         <button type="button" class="button__portfolio">Маркетинг</button>
                     </li>
                 </ul>
-
                 <h2 class="visually-hidden">Gallery</h2>
                 <ul class="gallery__list list">
                     <li class="gallery__item">
@@ -231,9 +230,9 @@
                         </div>
                     </li>
                 </ul>
-        </section>
-    </main>
-    <!--footer-->
+            </section>
+        </main>
+        <!--footer-->
     <footer class="footer">
         <div class="footer-container container">
             <div class="footer-contacts">
@@ -302,9 +301,11 @@
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
+                    </form>
             </div>
         </div>
-        </div>
+     
     </footer>
     </body>
 </html>
+
