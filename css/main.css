@@ -734,10 +734,6 @@ button {
   border-top: none;
 }
 
-.gallery__item:hover .text-card {
-  transform: translateY(-100%);
-}
-
 .gallery-wrap {
   position: relative;
   overflow: hidden;
